@@ -20,7 +20,7 @@ public class DatabaseConnection {
             e.printStackTrace();
         }
     }
-    private static final String URL =             "jdbc:sqlserver://localhost:1433;databaseName=Northwind;integratedSecurity=true;encrypt=false;";
+    private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=Northwind;integratedSecurity=true;encrypt=false;";
 
     private static final String USER = "";      // kosongkan jika pakai integratedSecurity
     private static final String PASS = "";      // kosongkan jika pakai integratedSecurity
